@@ -1,0 +1,33 @@
+{
+  "name": "firstapp",
+  "version": "0.1.0",
+  "description": "A Minimal Electron App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "bebel",
+    "webpack": "webpack",
+    "start": "npm run webpack && electron ."
+  },
+  "keywords": [],
+  "author": "LonYeHan",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "electron": "^9.1.2",
+    "electron-reload": "^1.5.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",    
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "redux-saga": "^1.1.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^3.12.0"
+  }
+}
